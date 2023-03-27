@@ -2,7 +2,53 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        tomato: "#F6683C",
+        midnight: "#0c1c2a",
+        lightSteel: "#B0C4DE",
+        slateBlue: "#147EFB",
+        denim: "#112a41",
+        navy: "#06131f",
+        dimGray: "#29292A",
+        gainsboro: "#DCDCDC",
+        bat: "#373738",
+      },
+
+      fontFamily: {
+        poppins: ["Poppins"],
+      },
+
+      height: {
+        "web-header": "10vh",
+        "mobile-header": "15vh",
+        "web-page": "90vh",
+        "mobile-page": "85vh",
+      },
+
+      gridTemplateColumns: {
+        projects: "60% 40%",
+      },
+
+      gridTemplateRows: {
+        home: "70% 30%",
+      },
+
+      screens: {
+        md: "874px",
+      },
+
+      keyframes: {
+        scale: {
+          "0%": { transform: "scale(1)" },
+          "100%": { transform: "scale(0)" },
+        },
+      },
+
+      animation: {
+        scale: "scale .5s linear forwards",
+      },
+    },
   },
   plugins: [],
 }
