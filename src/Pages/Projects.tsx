@@ -18,7 +18,7 @@ const Projects = () => {
         </h3>
         <div className="grid gap-10">
           <div className="grid gap-3 rounded-lg md:grid-cols-projects">
-            <h1 className="text-4xl font-bold text-gainsboro md:col-span-2">
+            <h1 className="text-4xl font-bold text-gainsboro md:col-span-2 2xl:text-[1.5vw]">
               Pinterest Clone
             </h1>
             <img
@@ -26,7 +26,7 @@ const Projects = () => {
               alt=""
               className="rounded-lg border-8 border-white self-center shadow-lg shadow-black/30"
             />
-            <div className="flex flex-col gap-10 text-center justify-self-end w-full p-5">
+            <div className="flex flex-col gap-10 text-center justify-self-end w-full p-5 2xl:text-[1.25vw]">
               <p>
                 A clone of Pinterest is a web application that replicates the
                 core features and functionalities of the popular image-sharing
@@ -62,12 +62,14 @@ const Projects = () => {
               </div>
               <div className="flex flex-col items-center gap-5 justify-center">
                 <div className="flex gap-5 items-center p-3 rounded-md bg-dimGray border-[1px] border-black/30">
-                  <img src={styledComponents} alt="" />
-                  <p className="text-xl font-bold">Styled Components</p>
+                  <img src={styledComponents} alt="" className="2xl:w-[3vw]" />
+                  <p className="text-xl font-bold 2xl:text-[1vw]">
+                    Styled Components
+                  </p>
                 </div>
                 <div className="flex gap-5 items-center p-3 rounded-md bg-dimGray border-[1px] border-black/30">
-                  <img src={react} alt="" />
-                  <p className="text-xl font-bold">ReactJS</p>
+                  <img src={react} alt="" className="2xl:w-[3vw]" />
+                  <p className="text-xl font-bold 2xl:text-[1vw]">ReactJS</p>
                 </div>
               </div>
             </div>
@@ -76,7 +78,7 @@ const Projects = () => {
           <div className="w-full h-0.5 bg-gainsboro/10 rounded-full"></div>
 
           <div className="grid gap-3 rounded-lg md:grid-cols-projects">
-            <h1 className="text-4xl font-bold text-gainsboro md:col-span-2">
+            <h1 className="text-4xl font-bold text-gainsboro md:col-span-2 2xl:text-[1.5vw]">
               Pokedex App
             </h1>
             <img
@@ -84,7 +86,7 @@ const Projects = () => {
               alt=""
               className="rounded-lg border-8 border-white self-center shadow-lg shadow-black/30"
             />
-            <div className="flex flex-col gap-10 text-center justify-self-end w-full p-5">
+            <div className="flex flex-col gap-10 text-center justify-self-end w-full p-5 2xl:text-[1.25vw]">
               <p>
                 This is an application that lists of the Pokémon released to
                 date, It provides extensive information on each Pokémon,
@@ -121,12 +123,14 @@ const Projects = () => {
               </div>
               <div className="flex flex-col items-center gap-5 justify-center">
                 <div className="flex gap-5 items-center p-3 rounded-md bg-dimGray border-[1px] border-black/30">
-                  <img src={styledComponents} alt="" />
-                  <p className="text-xl font-bold">Styled Components</p>
+                  <img src={styledComponents} alt="" className="2xl:w-[3vw]" />
+                  <p className="text-xl font-bold 2xl:text-[1vw]">
+                    Styled Components
+                  </p>
                 </div>
                 <div className="flex gap-5 items-center p-3 rounded-md bg-dimGray border-[1px] border-black/30">
-                  <img src={react} alt="" />
-                  <p className="text-xl font-bold">ReactJS</p>
+                  <img src={react} alt="" className="2xl:w-[3vw]" />
+                  <p className="text-xl font-bold 2xl:text-[1vw]">ReactJS</p>
                 </div>
               </div>
             </div>
@@ -135,7 +139,7 @@ const Projects = () => {
           <div className="w-full h-0.5 bg-gainsboro/10 rounded-full"></div>
 
           <div className="grid gap-3 rounded-lg md:grid-cols-projects">
-            <h1 className="text-4xl font-bold text-gainsboro md:col-span-2">
+            <h1 className="text-4xl font-bold text-gainsboro md:col-span-2 2xl:text-[1.5vw]">
               Spotify Clone
             </h1>
             <img
@@ -143,7 +147,7 @@ const Projects = () => {
               alt=""
               className="rounded-lg border-8 border-white self-center shadow-lg shadow-black/30"
             />
-            <div className="flex flex-col gap-10 text-center justify-self-end w-full p-5">
+            <div className="flex flex-col gap-10 text-center justify-self-end w-full p-5 2xl:text-[1.25vw]">
               <p>
                 A static web page that replicates the design of the Spotify Web
                 Player.
@@ -178,12 +182,14 @@ const Projects = () => {
               </div>
               <div className="flex flex-col items-center gap-5 justify-center">
                 <div className="flex gap-5 items-center p-3 rounded-md bg-dimGray border-[1px] border-black/30">
-                  <img src={tailwind} alt="" />
-                  <p className="text-xl font-bold">Tailwind CSS</p>
+                  <img src={tailwind} alt="" className="2xl:w-[3vw]" />
+                  <p className="text-xl font-bold 2xl:text-[1vw]">
+                    Tailwind CSS
+                  </p>
                 </div>
                 <div className="flex gap-5 items-center p-3 rounded-md bg-dimGray border-[1px] border-black/30">
-                  <img src={html5} alt="" />
-                  <p className="text-xl font-bold">HTML5</p>
+                  <img src={html5} alt="" className="2xl:w-[3vw]" />
+                  <p className="text-xl font-bold 2xl:text-[1vw]">HTML5</p>
                 </div>
               </div>
             </div>

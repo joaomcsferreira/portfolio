@@ -9,7 +9,7 @@ const About = () => {
         About
       </h3>
 
-      <div className="grid md:grid-cols-2 gap-4">
+      <div className="grid md:grid-cols-2 gap-10 md:text-[2vh] 2xl:gap-24">
         <div>
           <p className="text-justify indent-8 py-2">
             I am passionate about creating beautiful interfaces that make the
@@ -37,8 +37,8 @@ const About = () => {
             understand a little more about what motivates and inspires me.
           </p>
         </div>
-        <div className="flex w-full ml-5">
-          <img src={about} alt="" />
+        <div className="flex w-full">
+          <img src={about} alt="" className="h-auto object-contain" />
         </div>
       </div>
     </div>

@@ -26,6 +26,16 @@ module.exports = {
         "mobile-page": "85vh",
       },
 
+      minHeight: {
+        "mobile-page": "85vh",
+        "web-page": "90vh",
+      },
+
+      margin: {
+        "web-header": "10vh",
+        "mobile-header": "15vh",
+      },
+
       gridTemplateColumns: {
         projects: "60% 40%",
       },

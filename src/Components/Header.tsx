@@ -31,28 +31,28 @@ const Header = () => {
           md:flex md:gap-8 md:py-0 md:flex-row md:justify-center md:items-center md:static md:w-auto`}
       >
         <a
-          className="font-medium text-4xl hover:text-tomato md:text-base"
+          className="font-medium text-4xl hover:text-tomato md:text-base 2xl:text-[1.2vw]"
           href="#home"
           onClick={() => setActive((active) => !active)}
         >
           Home
         </a>
         <a
-          className="font-medium text-4xl hover:text-tomato md:text-base"
+          className="font-medium text-4xl hover:text-tomato md:text-base 2xl:text-[1.2vw]"
           href="#about"
           onClick={() => setActive((active) => !active)}
         >
           About me
         </a>
         <a
-          className="font-medium text-4xl hover:text-tomato md:text-base"
+          className="font-medium text-4xl hover:text-tomato md:text-base 2xl:text-[1.2vw]"
           href="#projects"
           onClick={() => setActive((active) => !active)}
         >
           Projects
         </a>
         <a
-          className="font-medium text-4xl hover:text-tomato md:text-base"
+          className="font-medium text-4xl hover:text-tomato md:text-base 2xl:text-[1.2vw]"
           href="#contact"
           onClick={() => setActive((active) => !active)}
         >
