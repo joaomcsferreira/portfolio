@@ -1,5 +1,7 @@
 import React from "react"
 
+import { useTranslation } from "react-i18next"
+
 import spotify from "../assets/images/spotify.png"
 import pokedex from "../assets/images/pokedex.png"
 import pinterest from "../assets/images/pinterest.png"
@@ -10,16 +12,18 @@ import styledComponents from "../assets/svgs/styledComponents.svg"
 import html5 from "../assets/svgs/html5.svg"
 
 const Projects = () => {
+  const { t } = useTranslation()
+
   return (
     <div className="bg-bat">
       <div id="projects" className="p-5 m-auto md:pl-10 md:w-10/12">
         <h3 className="w-full text-center pb-5 md:text-start mx-auto text-lg text-slateBlue font-bold">
-          Projects
+          {t("header.projects")}
         </h3>
         <div className="grid gap-10">
           <div className="grid gap-3 rounded-lg md:grid-cols-projects">
             <h1 className="text-4xl font-bold text-gainsboro md:col-span-2 2xl:text-[1.5vw]">
-              Pinterest Clone
+              {t("projects.pinterest.title")}
             </h1>
             <img
               src={pinterest}
@@ -27,11 +31,7 @@ const Projects = () => {
               className="rounded-lg border-8 border-white self-center shadow-lg shadow-black/30"
             />
             <div className="flex flex-col gap-10 text-center justify-self-end w-full p-5 2xl:text-[1.25vw]">
-              <p>
-                A clone of Pinterest is a web application that replicates the
-                core features and functionalities of the popular image-sharing
-                platform Pinterest using the React framework.
-              </p>
+              <p>{t("projects.pinterest.description")}</p>
               <div className="flex gap-5 justify-center">
                 <a
                   href="https://github.com/joaomcsferreira/pinterest-clone"
@@ -79,7 +79,7 @@ const Projects = () => {
 
           <div className="grid gap-3 rounded-lg md:grid-cols-projects">
             <h1 className="text-4xl font-bold text-gainsboro md:col-span-2 2xl:text-[1.5vw]">
-              Pokedex App
+              {t("projects.pokedex.title")}
             </h1>
             <img
               src={pokedex}
@@ -87,12 +87,7 @@ const Projects = () => {
               className="rounded-lg border-8 border-white self-center shadow-lg shadow-black/30"
             />
             <div className="flex flex-col gap-10 text-center justify-self-end w-full p-5 2xl:text-[1.25vw]">
-              <p>
-                This is an application that lists of the Pokémon released to
-                date, It provides extensive information on each Pokémon,
-                including their name, image, type, abilities, statistics,
-                evolutions, and description.
-              </p>
+              <p>{t("projects.pokedex.description")}</p>
               <div className="flex gap-5 justify-center">
                 <a
                   href="https://github.com/joaomcsferreira/pokedex"
@@ -140,7 +135,7 @@ const Projects = () => {
 
           <div className="grid gap-3 rounded-lg md:grid-cols-projects">
             <h1 className="text-4xl font-bold text-gainsboro md:col-span-2 2xl:text-[1.5vw]">
-              Spotify Clone
+              {t("projects.spotify.title")}
             </h1>
             <img
               src={spotify}
@@ -148,10 +143,7 @@ const Projects = () => {
               className="rounded-lg border-8 border-white self-center shadow-lg shadow-black/30"
             />
             <div className="flex flex-col gap-10 text-center justify-self-end w-full p-5 2xl:text-[1.25vw]">
-              <p>
-                A static web page that replicates the design of the Spotify Web
-                Player.
-              </p>
+              <p>{t("projects.spotify.description")}</p>
               <div className="flex gap-5 justify-center">
                 <a
                   href="https://github.com/joaomcsferreira/spotify-clone"

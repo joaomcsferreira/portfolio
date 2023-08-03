@@ -1,17 +1,23 @@
 import React from "react"
 
+import { useTranslation } from "react-i18next"
+
 const Contact = () => {
+  const { t } = useTranslation()
+
   return (
     <div id="contact" className="p-20 m-auto md:pl-10 md:w-10/12 ">
       <h3 className="w-full text-center pb-5 md:text-start mx-auto text-lg text-slateBlue font-bold">
-        Contact
+        {t("header.contact")}
       </h3>
       <div className="flex flex-col items-center gap-5 md:flex-row md:gap-24">
         <div className="flex flex-col items-center text-center gap-3 md:items-start md:text-start">
           <h2 className="text-2xl font-bold md:text-5xl">
-            I'm always willing to chat.
+            {t("contact.title")}
           </h2>
-          <h1 className="text-xl font-bold text-zinc-400">Get in Touch.</h1>
+          <h1 className="text-xl font-bold text-zinc-400">
+            {t("contact.message")}
+          </h1>
         </div>
 
         <div className="flex flex-col gap-3">
@@ -32,7 +38,9 @@ const Contact = () => {
                 </svg>
               </div>
               <div className="flex flex-col gap-3 items-center md:items-start">
-                <h3 className="text-lg font-bold text-slateBlue">Mail</h3>
+                <h3 className="text-lg font-bold text-slateBlue">
+                  {t("contact.mail")}
+                </h3>
                 <p className="font-bold">joaomcsferreira@gmail.com</p>
               </div>
             </div>

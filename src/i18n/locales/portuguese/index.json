@@ -1,0 +1,40 @@
+{
+  "header": {
+    "home": "Início",
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "home": {
+    "title": "Desenvolvedor Frontend",
+    "welcome": "Olá, eu sou João Marcos. Um desenvolvedor front-end com base no Brasil."
+  },
+  "about": {
+    "firstParagraph": "Eu sou apaixonado por criar interfaces bonitas que tornem a experiência do usuário mais agradável e intuitiva. Mas antes de começar a mostrar meu trabalho, deixe-me falar um pouco sobre mim mesmo.",
+    "secondParagraph": "Quando não estou trabalhando em desenvolvimento, adoro me imergir em histórias e ideias cativantes por meio da leitura de livros. Acredito que ler é uma das melhores maneiras de expandir nossas mentes e obter uma compreensão mais profunda do mundo. Além disso, tenho paixão por ilustrações digitais e passo inúmeras horas aprimorando minhas habilidades e criando composições cativantes.",
+    "thirdParagraph": "Falando de programação, codificar é uma das minhas grandes paixões. Eu adoro o desafio de escrever um código limpo e eficiente que resolve problemas de maneira elegante e criativa.",
+    "fourthParagraph": "Finalmente, espero que esse pequeno vislumbre sobre mim possa ajudá-lo a compreender um pouco mais sobre o que me motiva e inspira."
+  },
+  "projects": {
+    "pinterest": {
+      "title": "Pinterest Clone",
+      "description": "Um clone do Pinterest é uma aplicação web que replica as principais características e funcionalidades da popular plataforma de compartilhamento de imagens, Pinterest, utilizando o framework React."
+    },
+    "pokedex": {
+      "title": "Pokedex App",
+      "description": "Esta é uma aplicação que lista todos os Pokémon lançados até o momento. Ela fornece informações detalhadas sobre cada Pokémon, incluindo o nome, imagem, tipo, habilidades, estatísticas, evoluções e descrição."
+    },
+    "spotify": {
+      "title": "Spotify Clone",
+      "description": "Uma página web estática que replica o design do Spotify Web Player."
+    }
+  },
+  "contact": {
+    "title": "Eu estou sempre disposto a conversar.",
+    "message": "Entre em contato.",
+    "mail": "Email"
+  },
+  "footer": {
+    "message": "Todos os direitos estão reservados."
+  }
+}

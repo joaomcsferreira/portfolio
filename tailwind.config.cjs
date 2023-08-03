@@ -15,6 +15,10 @@ module.exports = {
         bat: "#373738",
       },
 
+      backgroundImage: {
+        "language-logo": "url('./src/assets/svgs/translate.svg')",
+      },
+
       fontFamily: {
         poppins: ["Poppins"],
       },

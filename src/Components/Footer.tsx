@@ -1,6 +1,10 @@
 import React from "react"
 
+import { useTranslation } from "react-i18next"
+
 const Footer = () => {
+  const { t } = useTranslation()
+
   return (
     <div className="flex flex-col items-center bg-black/40 gap-10 p-10 md:px-40 md:flex-row md:justify-between">
       <div className="flex flex-col items-center gap-3 md:flex-row">
@@ -15,7 +19,7 @@ const Footer = () => {
 
         <div className="grid text-center gap-1 md:text-start">
           <p className="text-lg font-medium">Copyright © 2023.</p>
-          <p className="text-xs">All rights are reserved.</p>
+          <p className="text-xs">{t("footer.message")}</p>
         </div>
       </div>
       <div className="flex gap-5">

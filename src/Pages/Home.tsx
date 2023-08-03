@@ -8,26 +8,76 @@ import react from "../assets/svgs/react.svg"
 import tailwind from "../assets/svgs/tailwind.svg"
 import typescript from "../assets/svgs/typescript.svg"
 
+import brazilFlag from "../assets/svgs/brazilFlag.svg"
+import UKFlag from "../assets/svgs/UKFlag.svg"
+
+import { useTranslation } from "react-i18next"
+
 const Home = () => {
+  const [languageModal, setLanguageModal] = React.useState(false)
+
+  const { t, i18n } = useTranslation()
+
+  const changeLanguage = async (lng: string) => {
+    await i18n.changeLanguage(lng)
+
+    setLanguageModal(false)
+  }
+
   return (
     <div
       id="home"
       className="w-full bg-bat mt-mobile-header min-h-mobile-page md:mt-web-header md:min-h-web-page md:h-web-page"
     >
+      <div className="absolute p-5 gap-2 group">
+        <div
+          className=" bg-zinc-700 rounded-full p-2 border-dimGray border-4 group-hover:border-white"
+          onClick={() => setLanguageModal((languageModal) => !languageModal)}
+        >
+          <svg
+            className="w-14 h-14 stroke-white cursor-pointer"
+            stroke-linejoin="bevel"
+          >
+            <path
+              fill="none"
+              stroke-width="3"
+              d="M18,4V14M4,14h29M25,14q0,15-18,22m6-14q11,14 18,14m0,19 9-25 9 25m-3-7H33"
+            />
+            <path d="m15,41-3,3h6zv10m7-3 3,3-3,3zM14.5,51h9" />
+          </svg>
+        </div>
+        {languageModal && (
+          <div className="flex flex-col mt-3 gap-2">
+            <div
+              onClick={() => changeLanguage("pt")}
+              className="flex w-16 h-16 rounded-full select-none overflow-hidden border-dimGray border-4 cursor-pointer"
+            >
+              <img src={brazilFlag} alt="" className="object-cover" />
+            </div>
+            <div
+              onClick={() => changeLanguage("en")}
+              className="flex w-16 h-16 rounded-full select-none overflow-hidden border-dimGray border-4 cursor-pointer"
+            >
+              <img src={UKFlag} alt="" className="object-cover" />
+            </div>
+          </div>
+        )}
+      </div>
+
       <div className="h-full flex flex-col items-center justify-center py-8 gap-16">
-        <div className="flex flex-col items-center gap-10 md:flex-row">
+        <div className="flex flex-col items-center gap-10 md:flex-row px-3">
           <img
             src={avatar}
             alt="avatar picture"
             className="w-72 h-72 justify-self-center rounded-full object-cover md:justify-self-start md:flex-1 md:w-[25vw] md:h-[25vw] md:order-2"
           />
           <div className="flex flex-col gap-5 mx-auto justify-center md:order-1">
-            <h2 className="text-6xl text-center font-bold md:text-end md:text-[5vw]">
-              Frontend Developer
+            <h2 className="text-4xl text-center font-bold sm:text-5xl md:text-end md:text-[5vw]">
+              {t("home.title")}
             </h2>
 
             <p className="text-center text-zinc-400 md:text-end md:text-[1.25vw]">
-              Hi, I am João Marcos. A front-end developer based in the Brazil.
+              {t("home.welcome")}
             </p>
           </div>
         </div>

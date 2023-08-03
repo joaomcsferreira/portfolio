@@ -1,0 +1,40 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About me",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Frontend Developer",
+    "welcome": "Hi, I am João Marcos. A front-end developer based in the Brazil."
+  },
+  "about": {
+    "firstParagraph": "I am passionate about creating beautiful interfaces that make the user experience more enjoyable and intuitive. But before I start showing you my work, let me tell you a little bit about myself.",
+    "secondParagraph": "When I am not working on development, I love immersing myself in captivating stories and ideas by reading books. I believe that reading is one of the best ways to broaden our minds and gain a deeper understanding of the world. I also have a passion for digital illustrations and spend countless hours refining my skills and crafting captivating compositions.",
+    "thirdParagraph": "Speaking of programming, coding is one of my great passions. I love the challenge of writing clean and efficient code that solves problems in an elegant and creative way.",
+    "fourthParagraph": "Finally, I hope that this little glimpse into myself can help you understand a little more about what motivates and inspires me."
+  },
+  "projects": {
+    "pinterest": {
+      "title": "Pinterest Clone",
+      "description": "A clone of Pinterest is a web application that replicates the core features and functionalities of the popular image-sharing platform Pinterest using the React framework."
+    },
+    "pokedex": {
+      "title": "Pokedex App",
+      "description": "This is an application that lists of the Pokémon released to date, It provides extensive information on each Pokémon, including their name, image, type, abilities, statistics, evolutions, and description."
+    },
+    "spotify": {
+      "title": "Spotify Clone",
+      "description": "A static web page that replicates the design of the Spotify Web Player."
+    }
+  },
+  "contact": {
+    "title": "I'm always willing to chat.",
+    "message": "Get in Touch.",
+    "mail": "Mail"
+  },
+  "footer": {
+    "message": "All rights are reserved."
+  }
+}
