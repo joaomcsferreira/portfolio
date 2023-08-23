@@ -27,6 +27,10 @@
     "spotify": {
       "title": "Spotify Clone",
       "description": "A static web page that replicates the design of the Spotify Web Player."
+    },
+    "colorWizardry": {
+      "title": "Color Wizardry",
+      "description": "An app that generates captivating color palettes from a single hue."
     }
   },
   "contact": {

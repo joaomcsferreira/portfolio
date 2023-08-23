@@ -15,6 +15,10 @@ module.exports = {
         bat: "#373738",
       },
 
+      dropShadow: {
+        white: "0 0 0.5rem #ffffff9F",
+      },
+
       backgroundImage: {
         "language-logo": "url('./src/assets/svgs/translate.svg')",
       },

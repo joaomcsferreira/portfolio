@@ -36,11 +36,11 @@ const Home = () => {
         >
           <svg
             className="w-14 h-14 stroke-white cursor-pointer"
-            stroke-linejoin="bevel"
+            strokeLinejoin="bevel"
           >
             <path
               fill="none"
-              stroke-width="3"
+              strokeWidth="3"
               d="M18,4V14M4,14h29M25,14q0,15-18,22m6-14q11,14 18,14m0,19 9-25 9 25m-3-7H33"
             />
             <path d="m15,41-3,3h6zv10m7-3 3,3-3,3zM14.5,51h9" />

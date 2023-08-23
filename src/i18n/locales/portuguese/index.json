@@ -27,6 +27,10 @@
     "spotify": {
       "title": "Spotify Clone",
       "description": "Uma página web estática que replica o design do Spotify Web Player."
+    },
+    "colorWizardry": {
+      "title": "Color Wizardry",
+      "description": "Um aplicativo que gera paletas de cores cativantes a partir de uma única matiz."
     }
   },
   "contact": {
