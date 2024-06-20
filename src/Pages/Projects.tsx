@@ -1,17 +1,17 @@
-import React from "react"
+import React from "react";
 
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "react-i18next";
 
-import spotifyPreview from "../assets/images/spotify.png"
-import pokedexPreview from "../assets/images/pokedex.png"
-import pinterestPreview from "../assets/images/pinterest.png"
-import colorWizardryPreview from "../assets/images/ColorWizardry.png"
+import spotifyPreview from "../assets/images/spotify-new.png";
+import pokedexPreview from "../assets/images/pokedex.png";
+import pinterestPreview from "../assets/images/pinterest.png";
+import colorWizardryPreview from "../assets/images/ColorWizardry.png";
 
-import tailwindLogo from "../assets/svgs/tailwind.svg"
-import reactLogo from "../assets/svgs/react.svg"
-import styledComponentsLogo from "../assets/svgs/styledComponents.svg"
-import html5Logo from "../assets/svgs/html5.svg"
-import nextjsLogo from "../assets/svgs/nextjs.svg"
+import tailwindLogo from "../assets/svgs/tailwind.svg";
+import reactLogo from "../assets/svgs/react.svg";
+import styledComponentsLogo from "../assets/svgs/styledComponents.svg";
+import html5Logo from "../assets/svgs/html5.svg";
+import nextjsLogo from "../assets/svgs/nextjs.svg";
 
 const projects = [
   {
@@ -42,8 +42,8 @@ const projects = [
     name: "spotify",
     image: spotifyPreview,
     links: {
-      github: "https://github.com/joaomcsferreira/spotify-clone",
-      demo: "https://spotify-clone-joaoferreira.vercel.app/",
+      github: "https://github.com/joaomcsferreira/spotify-web-player.git",
+      demo: "https://spotify-joaoferreira.vercel.app/",
     },
     technologies: [
       { name: "TailwindCSS", image: tailwindLogo },
@@ -62,10 +62,10 @@ const projects = [
       { name: "TailwindCSS", image: tailwindLogo },
     ],
   },
-]
+];
 
 const Projects = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <div className="bg-bat">
@@ -146,7 +146,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
